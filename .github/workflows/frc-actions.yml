@@ -1,10 +1,11 @@
-name: FRC-PIPELINE
+name: FRC GIT ACTION
 on: workflow_dispatch
-jobs:  
-  frc-job:
-      runs-on: ubuntu-latest
-      steps:
-        - name : Start Job
-          run: echo "Start Job"
-        - name: End Job
-          run:   echo "end job"
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: start job
+        run: echo "START JOB"
+      - name: end job
+        run : echo "END JOB"  
+
