@@ -1,0 +1,10 @@
+name: FRC-PIPELINE
+on: workflow_dispatch
+jobs:  
+  frc-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name : Start Job
+          run: echo "Start Job"
+        - name: End Job
+          run:   echo "end job"
