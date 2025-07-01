@@ -7,5 +7,7 @@ jobs:
       - name: start job
         run: echo "START JOB"
       - name: end job
-        run : echo "END JOB"  
+        run : |
+          echo "ENDING..........."
+          echo "END JOB"
 
